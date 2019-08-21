@@ -216,6 +216,13 @@ nav.top-nav .menu a.highlight:active {
 
 }
 
+
+.section .center {
+  flex: 3 0 auto;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .section {
   padding: 5em 5em;
   align-items: flex-start;
@@ -234,6 +241,7 @@ nav.top-nav .menu a.highlight:active {
 .section .left .title {
   flex: 1 0 auto;
 }
+
 
 .section h1 {
   margin: 0;
@@ -527,6 +535,15 @@ nav.top-nav .menu a.highlight:active {
   border-top: solid 1.5px #979797;
 }
 
+.sponsors .headliner img {
+  min-height: 100px;
+  object-fit: contain;
+}
+.sponsors .headliner div {
+  flex: 1 0 20%;
+  padding: 0 30px;
+}
+
 .sponsors .gold img {
   min-height: 100px;
   object-fit: contain;
@@ -692,6 +709,8 @@ nav.top-nav .menu a.highlight:active {
   margin-bottom: 2em;
 }
 
+
+
 /* mobile */
 @media (max-width: 920px) {
   .no-mobile {
@@ -819,4 +838,5 @@ nav.top-nav .menu a.highlight:active {
   .section.footer .row.mascotte {
     flex-direction: row;
   }
+
 }
